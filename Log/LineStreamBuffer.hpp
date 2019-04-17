@@ -20,15 +20,15 @@ namespace NCUtils::Log{
 	 */
 	template<class CharT, class Traits = std::char_traits<CharT>>
 	class basic_LineStreamBuffer : public std::basic_streambuf<CharT, Traits>{
-		/*! line buffer */
-		std::basic_string<CharT, Traits> buffer;
-		/*! destination of buffered data */
-		std::basic_ostream<CharT, Traits> &dest;
 	public:
 		basic_LineStreamBuffer(std::basic_ostream<CharT, Traits> &dest) : dest(dest){}
 		~basic_LineStreamBuffer(){ if(!buffer.empty()) sync(); }
 
 	protected:
+		/*! line buffer */
+		std::basic_string<CharT, Traits> buffer;
+		/*! destination of buffered data */
+		std::basic_ostream<CharT, Traits> &dest;
 		/*! for each new line character, overflow will be called */
 		std::streamsize xsputn(const typename Traits::char_type *s, std::streamsize count) override{
 			const typename Traits::char_type *b = s, *i = s, *e = s + count;
