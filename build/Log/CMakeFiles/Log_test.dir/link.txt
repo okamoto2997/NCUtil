@@ -1,1 +1,0 @@
-/home/okamoto/local/bin/g++  -Wall -Wextra -pipe   CMakeFiles/Log_test.dir/test.cpp.o  -o Log_test 
