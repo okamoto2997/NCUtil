@@ -23,7 +23,7 @@ namespace NCUtils::Log{
 		size_t current_line = 1;
 	public:
 		basic_LogStreamBuffer(std::ostream &dest ) : 
-			basic_LogStreamBuffer(std::to_string(getpid()) + "/" + std::to_string(getppid()), dest){}
+			basic_LogStreamBuffer(std::to_string(getpid()) + "/" + std::to_string(getppid()) + " : ", dest){}
 		basic_LogStreamBuffer(const string &prefix, std::ostream &dest ) : 
 			basic_LineStreamBuffer<CharT, Traits>(dest), prefix(prefix){
 

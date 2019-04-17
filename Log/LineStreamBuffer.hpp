@@ -22,7 +22,7 @@ namespace NCUtils::Log{
 	class basic_LineStreamBuffer : public std::basic_streambuf<CharT, Traits>{
 	public:
 		basic_LineStreamBuffer(std::basic_ostream<CharT, Traits> &dest) : dest(dest){}
-		~basic_LineStreamBuffer(){ if(!buffer.empty()) sync(); }
+		virtual ~basic_LineStreamBuffer(){ if(!buffer.empty()) this->sync(); }
 
 	protected:
 		/*! line buffer */
