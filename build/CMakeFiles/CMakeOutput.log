@@ -1,0 +1,415 @@
+The system is: Linux - 3.10.0-957.10.1.el7.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/okamoto/local/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/work/okamoto/Develop/NCUtil/build/CMakeFiles/3.9.5/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7cb10/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7cb10.dir/build.make CMakeFiles/cmTC_7cb10.dir/build
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_7cb10.dir/testCXXCompiler.cxx.o
+/home/okamoto/local/bin/g++     -o CMakeFiles/cmTC_7cb10.dir/testCXXCompiler.cxx.o -c /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7cb10
+/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cb10.dir/link.txt --verbose=1
+/home/okamoto/local/bin/g++       CMakeFiles/cmTC_7cb10.dir/testCXXCompiler.cxx.o  -o cmTC_7cb10 
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a0b6a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a0b6a.dir/build.make CMakeFiles/cmTC_a0b6a.dir/build
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o
+/home/okamoto/local/bin/g++     -o CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o -c /home/okamoto/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a0b6a
+/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b6a.dir/link.txt --verbose=1
+/home/okamoto/local/bin/g++      -v CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0b6a 
+Using built-in specs.
+COLLECT_GCC=/home/okamoto/local/bin/g++
+COLLECT_LTO_WRAPPER=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /home/okamoto/local/src/gcc/configure --prefix=/home/okamoto/local --enable-languages=c,c++,fortran,lto --disable-obsolete --disable-secureplt --disable-werror --disable-nls --enable-checking=release --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --disable-multilib --disable-altivec --disable-fixed-point --disable-libgcj --enable-libgomp --disable-libmudflap --disable-libssp --disable-libcilkrts --disable-libmpx --disable-vtable-verify --disable-libvtv --enable-lto --with-arch=native --with-tune=native --enable-tls --enable-plugin
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:./:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b6a' '-shared-libgcc' '-mtune=native' '-march=native'
+ /home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccepi8iO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a0b6a /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L. -L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b6a' '-shared-libgcc' '-mtune=native' '-march=native'
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a0b6a/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a0b6a.dir/build.make CMakeFiles/cmTC_a0b6a.dir/build]
+  ignore line: [gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/okamoto/local/bin/g++     -o CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o -c /home/okamoto/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a0b6a]
+  ignore line: [/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b6a.dir/link.txt --verbose=1]
+  ignore line: [/home/okamoto/local/bin/g++      -v CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0b6a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/okamoto/local/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /home/okamoto/local/src/gcc/configure --prefix=/home/okamoto/local --enable-languages=c,c++,fortran,lto --disable-obsolete --disable-secureplt --disable-werror --disable-nls --enable-checking=release --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --disable-multilib --disable-altivec --disable-fixed-point --disable-libgcj --enable-libgomp --disable-libmudflap --disable-libssp --disable-libcilkrts --disable-libmpx --disable-vtable-verify --disable-libvtv --enable-lto --with-arch=native --with-tune=native --enable-tls --enable-plugin]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:./:/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b6a' '-shared-libgcc' '-mtune=native' '-march=native']
+  link line: [ /home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccepi8iO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a0b6a /lib/../lib64/crt1.o /lib/../lib64/crti.o /home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L. -L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/okamoto/local/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccepi8iO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a0b6a] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> dir [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L.] ==> ignore
+    arg [-L/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_a0b6a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> [/home/okamoto/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/home/okamoto/local/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/okamoto/local/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/home/okamoto/local/lib64;/lib64;/usr/lib64;/home/okamoto/local/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1a516/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1a516.dir/build.make CMakeFiles/cmTC_1a516.dir/build
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_1a516.dir/feature_tests.cxx.o
+/home/okamoto/local/bin/g++    -std=c++1z -o CMakeFiles/cmTC_1a516.dir/feature_tests.cxx.o -c /work/okamoto/Develop/NCUtil/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a516
+/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a516.dir/link.txt --verbose=1
+/home/okamoto/local/bin/g++       CMakeFiles/cmTC_1a516.dir/feature_tests.cxx.o  -o cmTC_1a516 
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3d3e3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3d3e3.dir/build.make CMakeFiles/cmTC_3d3e3.dir/build
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_3d3e3.dir/feature_tests.cxx.o
+/home/okamoto/local/bin/g++    -std=c++14 -o CMakeFiles/cmTC_3d3e3.dir/feature_tests.cxx.o -c /work/okamoto/Develop/NCUtil/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3d3e3
+/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3e3.dir/link.txt --verbose=1
+/home/okamoto/local/bin/g++       CMakeFiles/cmTC_3d3e3.dir/feature_tests.cxx.o  -o cmTC_3d3e3 
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_30c8f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_30c8f.dir/build.make CMakeFiles/cmTC_30c8f.dir/build
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_30c8f.dir/feature_tests.cxx.o
+/home/okamoto/local/bin/g++    -std=c++11 -o CMakeFiles/cmTC_30c8f.dir/feature_tests.cxx.o -c /work/okamoto/Develop/NCUtil/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_30c8f
+/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c8f.dir/link.txt --verbose=1
+/home/okamoto/local/bin/g++       CMakeFiles/cmTC_30c8f.dir/feature_tests.cxx.o  -o cmTC_30c8f 
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d1e75/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d1e75.dir/build.make CMakeFiles/cmTC_d1e75.dir/build
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_d1e75.dir/feature_tests.cxx.o
+/home/okamoto/local/bin/g++    -std=c++98 -o CMakeFiles/cmTC_d1e75.dir/feature_tests.cxx.o -c /work/okamoto/Develop/NCUtil/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1e75
+/home/okamoto/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e75.dir/link.txt --verbose=1
+/home/okamoto/local/bin/g++       CMakeFiles/cmTC_d1e75.dir/feature_tests.cxx.o  -o cmTC_d1e75 
+gmake[1]: ディレクトリ `/work/okamoto/Develop/NCUtil/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

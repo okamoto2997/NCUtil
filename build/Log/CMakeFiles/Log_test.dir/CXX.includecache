@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//Log/Log.h
+LineStreamBuffer.hpp
+../Log/LineStreamBuffer.hpp
+
+../Log/LineStreamBuffer.hpp
+streambuf
+-
+string
+-
+
+/work/okamoto/Develop/NCUtil/Log/test.cpp
+Log/Log.h
+-
+iostream
+-
+
