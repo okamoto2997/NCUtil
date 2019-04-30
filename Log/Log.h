@@ -4,4 +4,5 @@
 #include <Log/PrefixedLineStreamBuffer.hpp>
 #include <Log/PrefixedBlockStreamBuffer.hpp>
 #include <Log/LogStreamBuffer.hpp>
+#include <Log/SharedFileBuffer.hpp>
 
