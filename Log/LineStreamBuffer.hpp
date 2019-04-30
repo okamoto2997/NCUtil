@@ -47,6 +47,7 @@ namespace NCUtils::Log{
 		typename Traits::int_type overflow([[maybe_unused]]typename Traits::int_type c = Traits::eof()) override{
 			if(!Traits::eq(c, Traits::eof())) buffer.push_back(c);
 			dest << buffer;
+			dest.flush();
 			buffer.clear();
 			return !Traits::eof();
 		}
@@ -54,7 +55,6 @@ namespace NCUtils::Log{
 			if(buffer.empty()) return 0;
 			if(!Traits::eq(buffer.back(), dest.widen('\n'))) buffer.push_back(dest.widen('\n'));
 			overflow();
-			dest.flush();
 			return 0; }
 	};
 
