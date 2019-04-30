@@ -5,12 +5,14 @@ int main(){
 	using namespace NCUtils::Log;
 	SharedFileBuffer sbuf("test.log");
 
-	std::ostream log(&sbuf);
+	LineStreamBuffer log_buf(std::cout);
+
+	std::ostream log(&log_buf);
 
 	//std::ofstream log("test.log", std::ios::app);
 
 	log << "=======================================================\n";
-	for(size_t n = 1; n < 10000; ++n){
+	for(size_t n = 1; n < 10; ++n){
 		log << "block No. " << n << "\n";
 	log << 1 << " st. : The quick brown fox jumps over the lazy dog, ";
 	log << 2 << " nd. : The quick brown fox jumps over the lazy dog, ";
