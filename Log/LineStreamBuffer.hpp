@@ -5,7 +5,6 @@
  * @date   2019/4/17
  */
 
-
 #pragma once
 
 #include <streambuf>
